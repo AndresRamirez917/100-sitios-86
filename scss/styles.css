@@ -75,6 +75,29 @@ img {
   margin: 2rem 0;
 }
 
+#mainheader {
+  width: 90%;
+  margin: 0 auto;
+}
+#mainheader .navbar-1 {
+  margin-bottom: 2rem;
+}
+#mainheader .navbar-1 .small {
+  margin-top: 2rem;
+}
+#mainheader .navbar-1 .social {
+  justify-content: end;
+  margin-top: 2rem;
+}
+#mainheader .navbar-1 .social img {
+  width: 20px;
+}
+#mainheader .banner-flex .banner-content {
+  display: flex;
+  flex: 1;
+  gap: 350px;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;

@@ -20,7 +20,7 @@ html, body {
 a {
   text-transform: capitalize;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 a:hover {
@@ -92,10 +92,24 @@ img {
 #mainheader .navbar-1 .social img {
   width: 20px;
 }
+#mainheader .banner-flex {
+  margin-bottom: 3rem;
+}
 #mainheader .banner-flex .banner-content {
   display: flex;
   flex: 1;
   gap: 350px;
+}
+#mainheader .navbar-2 {
+  background-color: #000;
+}
+#mainheader .navbar-2 ul {
+  display: flex;
+  padding: 20px 0;
+  margin-left: 0;
+}
+#mainheader .navbar-2 ul li {
+  margin-right: 2rem;
 }
 
 #footer {

@@ -23,7 +23,7 @@ html, body {
 a {
     text-transform: capitalize;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 a:hover {
@@ -96,12 +96,23 @@ img {
         }
     }
     .banner-flex {
+        margin-bottom: 3rem;
      .banner-content {
         display: flex;
         flex: 1;
         gap: 350px;
      }
     }
+    .navbar-2 {
+        background-color: #000;
+        ul {
+            display: flex;
+            padding: 20px 0;
+            margin-left: 0;
+            li {
+                margin-right: 2rem;}
+            }
+        }
 }
 
 

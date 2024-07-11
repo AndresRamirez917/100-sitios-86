@@ -36,10 +36,6 @@ ul {
   list-style: none;
 }
 
-img {
-  max-width: 100%;
-}
-
 .btn {
   display: block;
   padding: 10px 20px;
@@ -268,6 +264,29 @@ img {
 #places .places-content .places-flex p {
   line-height: 30px;
   margin-bottom: 1rem;
+}
+
+#article {
+  width: 90%;
+  margin: 0 auto;
+}
+#article .left-panel {
+  width: 100%;
+}
+#article .left-panel img {
+  width: 800px;
+}
+#article .left-panel .left-content {
+  text-align: justify;
+}
+#article .right-panel .right-panel-flex {
+  margin-bottom: 4rem;
+}
+#article .right-panel .right-panel-flex img {
+  width: 30%;
+}
+#article .right-panel .right-panel-flex .rigth-panel-text a {
+  color: red;
 }
 
 #footer {

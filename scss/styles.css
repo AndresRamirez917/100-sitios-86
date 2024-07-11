@@ -270,14 +270,14 @@ ul {
   width: 90%;
   margin: 0 auto;
 }
-#article .left-panel {
-  width: 100%;
-}
 #article .left-panel img {
   width: 800px;
 }
 #article .left-panel .left-content {
   text-align: justify;
+}
+#article .right-panel {
+  width: 100%;
 }
 #article .right-panel .right-panel-flex {
   margin-bottom: 4rem;
@@ -286,7 +286,7 @@ ul {
   width: 30%;
 }
 #article .right-panel .right-panel-flex .rigth-panel-text a {
-  color: red;
+  color: #000;
 }
 
 #footer {

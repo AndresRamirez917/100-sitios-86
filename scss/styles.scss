@@ -300,30 +300,28 @@ ul {
 #article {
     width: 90%;
     margin: 0 auto;
-        .left-panel  {
-   width: 100%;
-   img {
-    width: 800px;
-   }
-   .left-content {
-    text-align: justify;
-   }
+    .left-panel {
+        img {
+            width: 800px;
         }
-        .right-panel {
-                .right-panel-flex {
-                    margin-bottom: 4rem;
-                    img {
-                        width: 30%;
-                    }
-                    .rigth-panel-text {
-                        a {
-                            color: red;
-                           }
-                    }
-                  
+        .left-content {
+            text-align: justify;
+        }
+    }
+    .right-panel {
+        width: 100%; //aquí está el truco para que este panel funcione adecuadamente
+        .right-panel-flex {
+            margin-bottom: 4rem;
+            img {
+                width: 30%;
+            }
+            .rigth-panel-text {
+                a {
+                    color: #000;
                 }
+            }
         }
-   
+    }
 }
 
 

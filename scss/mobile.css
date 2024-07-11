@@ -1,1 +1,15 @@
-/*# sourceMappingURL=mobile.css.map */
+#article {
+  display: block;
+}
+#article .left-panel img {
+  width: 100%;
+}
+#article .right-panel {
+  width: 100%;
+}
+#article .right-panel .right-panel-flex {
+  display: block;
+}
+#article .right-panel .right-panel-flex img {
+  width: 100%;
+}/*# sourceMappingURL=mobile.css.map */

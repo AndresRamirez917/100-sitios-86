@@ -1,0 +1,18 @@
+//article
+#article {
+    display: block;
+    .left-panel {
+        img {
+            width: 100%;
+        }
+    }
+    .right-panel {
+        width: 100%;
+        .right-panel-flex {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

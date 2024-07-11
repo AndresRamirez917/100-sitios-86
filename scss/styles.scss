@@ -28,7 +28,7 @@ a {
 
 a:hover {
     background: blue;
-    height: 100%;
+  
 }
 
 .navbar ul li a:hover,
@@ -276,6 +276,24 @@ img {
         padding-top: 10rem;
     }
     
+}
+
+//places
+#places {
+    width: 90%;
+    margin: 0 auto;
+    .places-content {
+        .places-flex {
+            margin-bottom: 3rem;
+            img {
+                width: 40%;
+            }
+            p {
+                line-height: 30px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
 }
 
 

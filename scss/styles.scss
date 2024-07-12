@@ -222,6 +222,13 @@ ul {
         margin-top: 1rem;
     }
 
+    .main-1, .main-2, .main-3 {
+        a:hover {
+            background: none;
+            text-decoration: underline;
+        }
+    }
+
     .main-content {
         gap: 30px;
     }
@@ -237,6 +244,10 @@ ul {
         .main-2 {
             img {
                 width: 100px;
+            }
+            a:hover {
+                background: none;
+                text-decoration: underline;
             }
         }
     }

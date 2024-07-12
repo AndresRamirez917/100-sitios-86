@@ -208,6 +208,10 @@ ul {
   font-size: small;
   margin-top: 1rem;
 }
+#main .main-1 a:hover, #main .main-2 a:hover, #main .main-3 a:hover {
+  background: none;
+  text-decoration: underline;
+}
 #main .main-content {
   gap: 30px;
 }
@@ -221,6 +225,10 @@ ul {
 }
 #main .main-1 .main-2 img {
   width: 100px;
+}
+#main .main-1 .main-2 a:hover {
+  background: none;
+  text-decoration: underline;
 }
 #main .main-2 .text-bk2 {
   background: url("/img/feature-8.jpg");

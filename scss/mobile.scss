@@ -1,18 +1,31 @@
 //article
 #article {
-    display: block;
-    .left-panel {
-        img {
-            width: 100%;
-        }
-    }
-    .right-panel {
-        width: 100%;
-        .right-panel-flex {
+    .container {
+        display: block;
+        .left-panel {
             display: block;
+            width: 100%;
             img {
                 width: 100%;
             }
         }
+        .right-panel {
+            width: 100%;
+            display: block;
+            margin-top: 2rem;
+            .right-panel-flex {
+                display: block;
+                img {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+                .rigth-panel-text {
+                    h3 {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
     }
+    
 }

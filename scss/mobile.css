@@ -1,15 +1,25 @@
-#article {
+#article .container {
   display: block;
 }
-#article .left-panel img {
+#article .container .left-panel {
+  display: block;
   width: 100%;
 }
-#article .right-panel {
+#article .container .left-panel img {
   width: 100%;
 }
-#article .right-panel .right-panel-flex {
+#article .container .right-panel {
+  width: 100%;
+  display: block;
+  margin-top: 2rem;
+}
+#article .container .right-panel .right-panel-flex {
   display: block;
 }
-#article .right-panel .right-panel-flex img {
+#article .container .right-panel .right-panel-flex img {
   width: 100%;
+  margin-bottom: 1rem;
+}
+#article .container .right-panel .right-panel-flex .rigth-panel-text h3 {
+  margin-top: 1rem;
 }/*# sourceMappingURL=mobile.css.map */

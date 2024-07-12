@@ -298,30 +298,42 @@ ul {
 
 //article
 #article {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-    .left-panel {
-        img {
-            width: 800px;
-        }
-        .left-content {
-            text-align: justify;
-        }
-    }
-    .right-panel {
-        width: 100%; //aquí está el truco para que este panel funcione adecuadamente
-        .right-panel-flex {
-            margin-bottom: 4rem;
+    .container {
+        .left-panel {
+          width: 100%;
             img {
-                width: 30%;
+                width: 700px;
             }
-            .rigth-panel-text {
-                a {
-                    color: #000;
+            .left-content {
+                text-align: justify;
+            }
+        }
+        .right-panel {
+            width: 100%; //aquí está el truco para que este panel funcione adecuadamente
+            .right-panel-flex {
+                margin-bottom: 4rem;
+                img {
+                    width: 30%;
+                }
+                .rigth-panel-text {
+                    a {
+                        color: #000;
+                        background: none;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    h3 {
+                        margin-top: 1rem;
+                    }
+                    
                 }
             }
         }
     }
+    
 }
 
 
